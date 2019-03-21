@@ -193,6 +193,8 @@ class ViewController: UIViewController {
     
     func handlePan(pos: CGPoint) {
         
+//        change
+        
         //chord changes
         let chordFromLocation = min(
             Int((pos.x/self.view.bounds.size.width) * CGFloat(chordZonesCount)),
